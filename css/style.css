@@ -1,0 +1,261 @@
+:root{
+    --preto: #101010;
+    --vermelho: #c14000;
+    --verde: #009987;
+    --amarelo: #ffaa00;
+    --branco: #ffffff;
+    --cinza: #2f2f2f;
+    --cinza-claro: #c4c4c4;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    align-items: center;
+    background-color: var(--preto);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    background-color: var(--cinza);
+    border-radius: 0.5em;
+    width: 60%;
+    height: 100px;
+    padding: 20px;
+}
+.btn{
+    text-decoration: none;
+    background-color: var(--cinza);
+    border: none;
+    margin-left: 10px;
+    border-radius: 0.2em;
+    padding: 10px;
+    outline: none;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--branco);
+}
+a:hover,button:hover{
+    transition: 0.3s;
+    background-color: var(--verde);
+}
+div#banner{
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position:center center;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 98%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    font-size: 1.5em;
+}
+h2#titulo{
+    margin-top: 30px;
+    color: var(--branco);
+    font-size: 2em;
+}
+#cards{
+    margin-top: 30px;
+    width: 98%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 70px;
+    width: 320px;
+    height: 350px;
+    padding: 20px;
+}
+#verde{
+    background: var(--verde);
+}
+#vermelho{
+    background: var(--vermelho);
+}
+#amarelo{
+    background: var(--amarelo);
+}
+div.perfil{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #101010;
+}
+#ft1,#ft2,#ft3{
+    background-size: cover;
+    background-position: center center;
+}
+#ft1{
+    background-image: url(../img/team1.jpg);
+}
+#ft2{
+    background-image: url(../img/team2.jpg);
+}
+#ft3{
+    background-image: url(../img/team3.jpg);
+}
+h3{
+    margin-top: 10px;
+    color: var(--branco);
+}
+h2{
+    color: var(--branco);
+    margin-bottom: 20px;
+}
+p{
+    color: var(--branco);
+    margin-top: 10px;
+    text-align: center;
+}
+.btn-transparente{
+    background: none;
+	color: inherit;
+	border: var(--branco) 1px solid;
+	padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--branco);
+    text-align: center;
+}
+#logo-linkedin{
+    width: 20px;
+    height: 20px;
+}
+.linkedin{
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    background-size: cover;
+}
+#nosso-negocio{
+    margin-top: 40px;
+    background-color: var(--cinza);
+    width: 65%;
+    height: 300px;
+    display: flex;
+}
+article#foto-pessoa-com-computador{
+    width: 40%;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+article#negocio{
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ler-mais{
+    background: none;
+	color: inherit;
+	border: var(--branco) 1px solid;
+	padding: 10px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--branco);
+    text-align: center;
+}
+h2#txt-projetos{
+    margin-top: 60px;
+}
+#txt-projetos{
+  
+  width:400px;
+ text-align: center;
+}
+#fotos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 40%;
+    height: 400px;
+       
+}
+.fts{
+    background-size: cover;
+    background-position: center center;
+    margin: 10px;
+    width: 180px;
+    height: 180px;
+   
+}
+#fts1{
+    background-image: url(../img/portfolio1.jpg);
+}
+#fts2{
+    background-image: url(../img/portfolio2.jpg);
+}
+#fts3{
+    background-image: url(../img/portfolio3.jpg);
+}
+#fts4{
+    background-image: url(../img/portfolio4.jpg);
+}
+#fts5{
+    background-image: url(../img/portfolio5.jpg);
+}
+#fts6{
+    background-image: url(../img/portfolio6.jpg);
+}
+#veja-mais{
+    background: none;
+	color: inherit;
+	border: var(--branco) 1px solid;
+	padding: 10px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--branco);
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--cinza);
+}
+q{
+    color: var(--branco);
+}
+#icn{
+    background-size: cover;
+    background-position: center center;
+  height: 10px;
+  width: 200px;
+}
+.icns{
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+
+}
